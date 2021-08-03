@@ -10,5 +10,24 @@ Nope.
 Is Safier multithreading?
 Yes.
 
+Where is Safier configs location?
+at configs folder.
+Config template:
+{
+    "config": {
+        "name": "The name of the config",
+        "back_name": "Config back name/domain the same kinda",
+        "author": "Author of the config"
+    },
+    "checking": {
+        "invalid_if_contain": ""If body contain this it will the account will be invalid.,
+        "retry_if_contain": "If body contain checker will retry and change It's proxy.",
+        "valid_if_contain": "If body contain this it will the account will be valid."
+    },
+    "api_link": "The API link/login link ot post.",
+    "headers": {}, //Post Headers
+    "body": "Body to send in post."
+}
+
 Where do valid/hit account go?
 In results/hits.txt
