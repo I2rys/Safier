@@ -1,0 +1,18 @@
+{
+    "config": {
+        "name": "Duolingo Checker",
+        "back_name": "Duolingo",
+        "author": "I2rys"
+    },
+    "checking": {
+        "invalid_if_contain": "",
+        "retry_if_contain": "Unavailable",
+        "valid_if_contain": "learningLanguage"
+    },
+    "api_link": "https://ios-api-2.duolingo.com/2017-06-30/login",
+    "headers": {
+        "Content-Type": "application/x-www-form-urlencoded",
+        "UserAgent": "DuolingoMobile/6.14.1 (iPhone; iOS 12.0.1; Scale/2.00)"
+    },
+    "body": {"distinctId":"3e5b23ce-2bfa-43d7-8388-045f0e6a32aa", "fields": "acquisitionSurveyReason,adsConfig,betaStatus,bio,blockedUserIds,canUseModerationTools,courses,creationDate,currentCourse,email,emailAnnouncement,emailAssignment,emailAssignmentComplete,emailClassroomJoin,emailClassroomLeave,emailComment,emailEditSuggested,emailEventsDigest,emailFollow,emailPass,emailPromotion,emailWeeklyProgressReport,emailSchoolsAnnouncement,emailStreamPost,emailVerified,emailWeeklyReport,enableMicrophone,enableSoundEffects,enableSpeaker,experiments%7Bcourses_fr_ja_v1,courses_it_de_v1,hoots_web,hoots_web_100_crowns,hoots_web_rename,learning_det_scores_v1,learning_duolingo_score_v1,media_shorten_cant_speak_web,mercury_show_surveys_non_trial,mercury_web_custom_hdyhau_survey,midas_web_cta_purchase_start_my_14_day,midas_web_payment_requests_v2,midas_web_purchase_flow_checklist,midas_web_timeline_direct_purchase,midas_web_timeline_eligible_free_trial,midas_web_use_card_country,midas_web_use_postal_code,nurr_web_port_pre_lesson_tip_no_grammar,retention_web_banner_v3,retention_web_day_1_freeze_v1,schools_add_link_in_dweb_topbar,sigma_web_cancel_flow,sigma_web_cancel_flow_crossgrade,sigma_web_standardize_plus_colors_v2,spam_non_blocking_email_verification,stories_web_allow_extra_trial_story,stories_web_homepage_redesign_v2,stories_web_intro_callout_tier_1,tsl_web_daily_goal_copy,web_delight_mid_lesson_chars_v2,web_delight_prog_quiz_intro_banner_v2,web_enable_token_typing_all_latin,web_podcast_en_pt,web_token_typing_affordances,writing_bingo_web_internal%7D,facebookId,fromLanguage,globalAmbassadorStatus,googleId,hasPlus,id,inviteURL,joinedClassroomIds,lastStreak%7BisAvailableForRepair,length%7D,learningLanguage,lingots,location,monthlyXp,name,observedClassroomIds,persistentNotifications,picture,plusDiscounts,practiceReminderSettings,privacySettings,referralInfo,rewardBundles,roles,streak,streakData%7Blength%7D,timezone,timezoneOffset,totalXp,trackingProperties,unconsumedGiftIds,username,webNotificationIds,weeklyXp,xpGains,xpGoal,zhTw,_achievements", "identifier": "<email>","password": "<password>","landingUrl":"https://www.duolingo.com/log-in?isLoggingIn=true","lastReferrer":""}
+}

