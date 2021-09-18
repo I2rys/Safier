@@ -1,5 +1,5 @@
 <h1 align="center">Safier</h1>
-<h4 align="center">Safier will be archive for now. Please visit https://github.com/Subarashi-Project (Example of a simple Multi services accounts checker with configs writen in NodeJS)</h4>
+<h4 align="center">Safier will be archive for now. Please visit https://github.com/MoonS3c (Example of a simple Multi services accounts checker with configs writen in NodeJS)</h4>
 <p align="center">
 <img src="https://github.com/I2rys/Safier/raw/main/preview.PNG?raw=true"></img>
 </p>
